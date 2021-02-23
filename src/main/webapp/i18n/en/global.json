@@ -6,7 +6,7 @@
       "home": "Home",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
-        "main": "Entities",
+        "main": "Main",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -38,10 +38,10 @@
       "username.placeholder": "Your username",
       "currentpassword.label": "Current password",
       "currentpassword.placeholder": "Current password",
-      "newpassword.label": "New password",
-      "newpassword.placeholder": "New password",
-      "confirmpassword.label": "New password confirmation",
-      "confirmpassword.placeholder": "Confirm the new password",
+      "newpassword.label": "Password",
+      "newpassword.placeholder": "Password",
+      "confirmpassword.label": "Password confirmation",
+      "confirmpassword.placeholder": "Confirm Password",
       "email.label": "Email",
       "email.placeholder": "Your email"
     },

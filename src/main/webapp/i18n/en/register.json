@@ -1,6 +1,7 @@
 {
   "register": {
     "title": "Registration",
+    "fullName": "Full Name",
     "form": {
       "button": "Register"
     },
