@@ -3,7 +3,9 @@
     "title": "Registration",
     "fullName": "Full Name",
     "form": {
-      "button": "Register"
+      "button": "Register",
+      "addPicture": "Add profile picture",
+      "update": "Update"
     },
     "messages": {
       "validate": {

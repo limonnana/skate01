@@ -3,7 +3,9 @@
     "title": "Registrarse",
     "fullName": "Nombre Completo",
     "form": {
-      "button": "Crear la cuenta"
+      "button": "Crear la cuenta",
+      "addPicture": "Agregar foto de perfil",
+      "update": "Actualizar"
     },
     "messages": {
       "validate": {

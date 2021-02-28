@@ -12,9 +12,12 @@ import { PasswordResetFinishComponent } from './password-reset/finish/password-r
 import { SettingsComponent } from './settings/settings.component';
 import { accountState } from './account.route';
 import { RegisterFanComponent } from './register/register-fan/register-fan.component';
+import { FanComponent } from './fan/fan.component';
+import { AddImageComponent } from './add-image/add-image.component';
+import { ImageCropperModule } from 'ngx-image-cropper';
 
 @NgModule({
-  imports: [Skate01SharedModule, RouterModule.forChild(accountState)],
+  imports: [ImageCropperModule, Skate01SharedModule, RouterModule.forChild(accountState)],
   declarations: [
     ActivateComponent,
     RegisterComponent,
@@ -24,6 +27,8 @@ import { RegisterFanComponent } from './register/register-fan/register-fan.compo
     PasswordResetFinishComponent,
     SettingsComponent,
     RegisterFanComponent,
+    FanComponent,
+    AddImageComponent,
   ],
 })
 export class AccountModule {}

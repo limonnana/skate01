@@ -7,14 +7,14 @@ import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 
 import { IFan, Fan } from 'app/shared/model/fan.model';
-import { FanService } from '../fan.service';
+import { FanService } from './fan.service';
 
 @Component({
-  selector: 'jhi-register-fan',
-  templateUrl: './register-fan.component.html',
-  styleUrls: ['./register-fan.component.scss'],
+  selector: 'jhi-fan',
+  templateUrl: './fan.component.html',
+  styleUrls: ['./fan.component.scss'],
 })
-export class RegisterFanComponent implements OnInit {
+export class FanComponent implements OnInit {
   isSaving = false;
   doNotMatch = false;
 
